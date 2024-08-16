@@ -20,7 +20,7 @@ const Nav = () => {
           </Link>
         ))}
       </ul>
-      <div className="lg:flexCenter hidden">
+      <div className="lg:flexCenter hidden cursor-pointer">
         <Button
           type="button"
           title="Login"

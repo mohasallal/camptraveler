@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex felx-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
 
       {/** Left Section */}
@@ -11,8 +11,8 @@ const Hero = () => {
         <Image
           src="/camp.svg"
           alt="camp"
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           className="absolute left-[-5px] top-[-30px] lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-88">Putuk Torno Camp Area</h1>
@@ -42,7 +42,7 @@ const Hero = () => {
             </span>
           </p>
         </div>
-        <div className="flex flex-col w-full gap03 sm:flex-row">
+        <div className="flex flex-col w-full gap-3 sm:flex-row cursor-pointer">
           <Button type="button" title="Download App" variant="btn_green" />
           <Button
             type="button"
