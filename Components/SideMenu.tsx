@@ -23,6 +23,7 @@ const SideMenu = ({ children }: SideMenuTypes) => {
     }
   }, [isOpen]);
 
+  
   return (
     <div className="lg:hidden block" onClick={handleMenuOpen}>
       {children}
